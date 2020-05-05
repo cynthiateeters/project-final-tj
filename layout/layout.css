@@ -1,0 +1,95 @@
+/* layout.css */
+
+/* change story to 2-column */
+
+.story div {
+  max-width: 90vw;
+  column-width: 26rem;
+  column-gap: 2.5rem;
+  font-size: 1rem;
+  column-rule: 1px solid #ccc;
+}
+
+.story div p:first-child {
+  margin-top: 0;
+}
+
+/* grids */
+
+.gallery,
+figure,
+.form-container {
+  display: grid;
+  justify-content: center;
+}
+
+.form {
+  padding: 1rem;
+}
+
+/* media query mid-sized screen */
+
+@media screen and (min-width: 50rem) {
+  html {
+    font-size: 1rem;
+  }
+
+  hr {
+    display: none;
+  }
+
+  /* gallery layout */
+
+  figure {
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+  }
+
+  figure img {
+    grid-column: 1/4;
+  }
+
+  figure figcaption {
+    padding: 1rem;
+  }
+
+  /* form layout */
+
+  .form-container {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    padding: 1rem 1rem 4rem 1rem;
+  }
+
+  .invite {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* media query large-sized screen*/
+
+@media screen and (min-width: 80rem) {
+  html {
+    font-size: 1.1rem;
+  }
+
+  figure {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .gallery h2 {
+    grid-column: 1/-1;
+  }
+}
+
+.github {
+  fill: white;
+  margin-left: 1rem;
+  margin-bottom: -0.5rem;
+  width: 1.4rem;
+}
