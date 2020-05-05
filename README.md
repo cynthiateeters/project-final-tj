@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # IDMX Final Project
 
 ## Summary
