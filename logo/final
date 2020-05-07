@@ -1,0 +1,15 @@
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Logo</title>
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+  </head>
+
+  <body>
+    <img src="rothemich-final.svg" alt=" my initials as a logo">
+    <h1>Hello there</h1>
+  </body>
+
+</html>
